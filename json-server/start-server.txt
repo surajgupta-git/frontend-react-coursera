@@ -1,0 +1,7 @@
+open the terminal inside this directory
+then npm install json-server
+then run
+>$ json-server --watch db.json -d 2000 -p 3001
+where 2000 is the delay in fetching the resources
+3001 is the port number
+the react application should run on other port eg: 3000
